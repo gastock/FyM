@@ -17,14 +17,14 @@ namespace FYM_SIPII.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "FyM Enterprise";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "FyM Enterprise";
 
             return View();
         }
