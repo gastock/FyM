@@ -29,6 +29,20 @@ namespace FYM_SIPII.Controllers
             return View();
         }
 
+        public IActionResult Perfil()
+        {
+            ViewData["Message"] = "Perfil";
+
+            return View();
+        }
+
+        public IActionResult Calificacion()
+        {
+            ViewData["Message"] = "Calificacion";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
